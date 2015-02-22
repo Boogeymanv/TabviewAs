@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		7C38CC051A9A77DA00A51AD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38CC041A9A77DA00A51AD4 /* main.m */; };
 		7C38CC081A9A77DA00A51AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38CC071A9A77DA00A51AD4 /* AppDelegate.m */; };
-		7C38CC0B1A9A77DA00A51AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38CC0A1A9A77DA00A51AD4 /* ViewController.m */; };
 		7C38CC0E1A9A77DA00A51AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C38CC0C1A9A77DA00A51AD4 /* Main.storyboard */; };
 		7C38CC101A9A77DA00A51AD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C38CC0F1A9A77DA00A51AD4 /* Images.xcassets */; };
 		7C38CC131A9A77DA00A51AD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C38CC111A9A77DA00A51AD4 /* LaunchScreen.xib */; };
 		7C38CC1F1A9A77DB00A51AD4 /* TabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38CC1E1A9A77DB00A51AD4 /* TabViewTests.m */; };
+		7C38CC2A1A9A7D8E00A51AD4 /* Tabviewc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C38CC291A9A7D8E00A51AD4 /* Tabviewc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		7C38CC041A9A77DA00A51AD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C38CC061A9A77DA00A51AD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C38CC071A9A77DA00A51AD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C38CC091A9A77DA00A51AD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C38CC0A1A9A77DA00A51AD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C38CC0D1A9A77DA00A51AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C38CC0F1A9A77DA00A51AD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C38CC121A9A77DA00A51AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7C38CC181A9A77DB00A51AD4 /* TabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C38CC1D1A9A77DB00A51AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C38CC1E1A9A77DB00A51AD4 /* TabViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewTests.m; sourceTree = "<group>"; };
+		7C38CC281A9A7D8E00A51AD4 /* Tabviewc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabviewc.h; sourceTree = "<group>"; };
+		7C38CC291A9A7D8E00A51AD4 /* Tabviewc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabviewc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				7C38CC061A9A77DA00A51AD4 /* AppDelegate.h */,
 				7C38CC071A9A77DA00A51AD4 /* AppDelegate.m */,
-				7C38CC091A9A77DA00A51AD4 /* ViewController.h */,
-				7C38CC0A1A9A77DA00A51AD4 /* ViewController.m */,
 				7C38CC0C1A9A77DA00A51AD4 /* Main.storyboard */,
+				7C38CC281A9A7D8E00A51AD4 /* Tabviewc.h */,
+				7C38CC291A9A7D8E00A51AD4 /* Tabviewc.m */,
 				7C38CC0F1A9A77DA00A51AD4 /* Images.xcassets */,
 				7C38CC111A9A77DA00A51AD4 /* LaunchScreen.xib */,
 				7C38CC021A9A77DA00A51AD4 /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C38CC0B1A9A77DA00A51AD4 /* ViewController.m in Sources */,
 				7C38CC081A9A77DA00A51AD4 /* AppDelegate.m in Sources */,
 				7C38CC051A9A77DA00A51AD4 /* main.m in Sources */,
+				7C38CC2A1A9A7D8E00A51AD4 /* Tabviewc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

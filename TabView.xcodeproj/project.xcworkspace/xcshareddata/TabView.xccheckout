@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95514E4F-70DC-4D75-982C-6CAFC401D947</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TabView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E91BCDC59E5977A485AFC0E5F36A3A78DE23CB8</key>
+		<string>https://github.com/Boogeymanv/TabviewAs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TabView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E91BCDC59E5977A485AFC0E5F36A3A78DE23CB8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Boogeymanv/TabviewAs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E91BCDC59E5977A485AFC0E5F36A3A78DE23CB8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E91BCDC59E5977A485AFC0E5F36A3A78DE23CB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TabView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

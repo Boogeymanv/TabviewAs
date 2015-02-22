@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Tabviewc.h
 //  TabView
 //
 //  Created by VIGNESH SHETTY on 23/02/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Tabviewc : UITableViewController
 
 @end
-
