@@ -74,7 +74,7 @@
     }
     else
     {
-        cell.textLabel.text=[ NSString stringWithFormat:@"%i",indexPath.row];
+        cell.textLabel.text=[NSString stringWithFormat:@"Cell %i",indexPath.row];
     }
     
     
